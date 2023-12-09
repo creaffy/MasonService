@@ -296,6 +296,7 @@ export type ApiGetServerResponse = ApiResponse & {
 
 export type ApiGetUserResponse = ApiResponse & {
     user: ApiUser;
+    is_banned: bool;
     rewards: ApiUserReward[];
 };
 
